@@ -234,7 +234,7 @@ resource fhirIngestionApp 'Microsoft.Web/sites@2021-03-01' = {
   }
   tags: resourceTags
 }
-
+/*
 resource fhirIngestionAppSource 'Microsoft.Web/sites/sourcecontrols@2021-03-01' = {
   name: 'web'
   parent: fhirIngestionApp
@@ -244,4 +244,4 @@ resource fhirIngestionAppSource 'Microsoft.Web/sites/sourcecontrols@2021-03-01' 
     isManualIntegration: true
   }
 }
-
+*/
