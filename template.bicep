@@ -200,8 +200,6 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2021-03-01' = {
   tags: resourceTags
 }
 
-
-
 resource fhirIngestionApp 'Microsoft.Web/sites@2021-03-01' = {
   name: fhirIngestionAppConfig.name
   location: resourceLocation
